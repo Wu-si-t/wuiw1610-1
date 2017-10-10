@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<input type="search">
+<ul class="list"></ul>
+</body>
+<script>
+    var search=document.querySelector('input[type=search]');
+    var list=document.querySelector('.list');
+    search.onblur=function () {
+        var v=search.value;
+        var xhr=new XMLHttpRequest();
+        xhr.open('GET','/search?s='+v);
+        xhr.send();
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState==4){
+                if(xhr.status==200){
+                    var str='';
+                    var d=JSON.parse(xhr.response)
+                    d.forEach(v=>{
+                        str+=`<li>${v}</li>`;
+                })
+                    list.innerHTML=str;
+                }
+            }
+        }
+    }
+
+</script>
+</html>
