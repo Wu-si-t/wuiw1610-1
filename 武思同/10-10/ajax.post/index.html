@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <span>账号</span>
+    <input type="text" id="user">
+    <span>密码</span>
+    <input type="password" id="pwd">
+    <input type="button" value="登录" id="submit">
+</body>
+<script>
+    submit.onclick=function(){
+        var u=user.value;
+        var v=pwd.value;
+        var xhr=new XMLHttpRequest();
+        xhr.open('post','/login');
+        xhr.send(`user=${u}&pwd=${v}`);
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState==4){
+                if(xhr.status==200){
+                    console.log(xhr.response);
+                }
+            }
+        }
+    }
+</script>
+</html>
