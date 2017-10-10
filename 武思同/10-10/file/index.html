@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .big{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.3);
+        position: relative;
+        overflow: hidden;
+    }
+    #file{
+        width: 100%;
+        height:100%;
+        opacity:0;
+        position: absolute;
+    }
+    .big img{
+        width:100%;
+        height:100%;
+        position: absolute;
+    }
+</style>
+<body>
+    <div class="big">
+        <img src="" alt="">
+        <input type="file" id="file">
+    </div>
+</body>
+<script>
+    var image=document.querySelector('.big img');
+    console.log(image)
+    file.onchange=function () {
+        var filed=this.files[0];
+        var fd=new FormData();
+        var xhr=new XMLHttpRequest();
+        fd.append('big',filed);
+        xhr.open('POST',"/upload");
+        xhr.send(fd);
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState==4){
+                if(xhr.status==200){
+                    image.src+=xhr.response;
+                }
+            }
+        }
+    }
+</script>
+</html>

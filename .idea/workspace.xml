@@ -15,20 +15,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/武思同/10-10/ajax.post/index.html">
+        <entry file="file://$PROJECT_DIR$/武思同/10-10/file/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="217">
+              <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="http.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/武思同/10-10/ajax.post/http.js">
+        <entry file="file://$PROJECT_DIR$/武思同/10-10/file/http.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -68,6 +68,9 @@
         <option value="$PROJECT_DIR$/武思同/10-10/ajax/index.html" />
         <option value="$PROJECT_DIR$/武思同/10-10/ajax.post/index.html" />
         <option value="$PROJECT_DIR$/武思同/10-10/ajax.post/http.js" />
+        <option value="$PROJECT_DIR$/武思同/10-10/form-file/index.html" />
+        <option value="$PROJECT_DIR$/武思同/10-10/file/http.js" />
+        <option value="$PROJECT_DIR$/武思同/10-10/file/index.html" />
       </list>
     </option>
   </component>
@@ -80,6 +83,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/侯宁洲/9-26/test/node_modules" />
     <handled-path value="$PROJECT_DIR$/侯宁洲/9-28/node_modules" />
+    <handled-path value="$PROJECT_DIR$/武思同/10-10/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="12" />
@@ -138,21 +142,7 @@
               <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
               <item name="武思同" type="462c0819:PsiDirectoryNode" />
               <item name="10-10" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
-              <item name="武思同" type="462c0819:PsiDirectoryNode" />
-              <item name="10-10" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax.post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
-              <item name="武思同" type="462c0819:PsiDirectoryNode" />
-              <item name="10-10" type="462c0819:PsiDirectoryNode" />
-              <item name="form-get" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,26 +182,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.http.js (1)">
+  <component name="RunManager" selected="Node.js.http.js (4)">
     <configuration name="http.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/ajax.post" />
-    <configuration name="http.js (2)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10" />
     <configuration name="http.js (3)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/form-get" />
+    <configuration name="http.js (4)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/file" />
     <configuration name="http.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/ajax" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wuiw1610-1/武思同/10-10/ajax/index.html" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.http.js (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.http.js (3)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.http.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.http.js (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.http.js (3)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.http.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.http.js (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.http.js (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.http.js (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.http.js" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.http.js (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.http.js (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.http.js (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.http.js (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.http.js" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.http.js (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -227,12 +217,12 @@
       <updated>1506736846100</updated>
       <workItem from="1506736849657" duration="2640000" />
       <workItem from="1507519996460" duration="16375000" />
-      <workItem from="1507598421489" duration="9663000" />
+      <workItem from="1507598421489" duration="15910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28678000" />
+    <option name="totallyTimeSpent" value="34925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -242,7 +232,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29793978" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29793978" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -419,16 +409,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/武思同/10-10/ajax.post/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="462">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/武思同/10-10/ajax.post/http.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/file/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/file/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
