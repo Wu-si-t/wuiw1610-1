@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2842c037-dcbb-4bdd-bd46-9f27b61bd082" name="Default" comment="" />
+    <list default="true" id="2842c037-dcbb-4bdd-bd46-9f27b61bd082" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,21 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/武思同/10-10/file/index.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/武思同/10-11/express1/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/武思同/10-10/file/http.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="-211">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -71,6 +63,18 @@
         <option value="$PROJECT_DIR$/武思同/10-10/form-file/index.html" />
         <option value="$PROJECT_DIR$/武思同/10-10/file/http.js" />
         <option value="$PROJECT_DIR$/武思同/10-10/file/index.html" />
+        <option value="$PROJECT_DIR$/武思同/10-10/express1/app.js" />
+        <option value="$PROJECT_DIR$/武思同/10-10/express2/app.js" />
+        <option value="$PROJECT_DIR$/武思同/10-10/express3/static/css/index.css" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express1/app.js" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express2/routes/product.js" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express2/app.js" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express3/app.js" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express3/app2.js" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express2/routes/home.js" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express2/routes/news.js" />
+        <option value="$PROJECT_DIR$/武思同/10-11/express3/app3.js" />
+        <option value="$PROJECT_DIR$/武思同/10-10/express3/app.js" />
       </list>
     </option>
   </component>
@@ -83,7 +87,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/侯宁洲/9-26/test/node_modules" />
     <handled-path value="$PROJECT_DIR$/侯宁洲/9-28/node_modules" />
+    <handled-path value="$PROJECT_DIR$/武思同/10-10/express1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/武思同/10-10/express2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/武思同/10-10/express3/node_modules" />
     <handled-path value="$PROJECT_DIR$/武思同/10-10/node_modules" />
+    <handled-path value="$PROJECT_DIR$/武思同/10-11/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="12" />
@@ -106,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,19 +131,6 @@
               <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
               <item name="武思同" type="462c0819:PsiDirectoryNode" />
-              <item name="10-9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
-              <item name="武思同" type="462c0819:PsiDirectoryNode" />
-              <item name="10-9" type="462c0819:PsiDirectoryNode" />
-              <item name="http3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
-              <item name="武思同" type="462c0819:PsiDirectoryNode" />
               <item name="10-10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,14 +138,48 @@
               <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
               <item name="武思同" type="462c0819:PsiDirectoryNode" />
               <item name="10-10" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="express3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
+              <item name="武思同" type="462c0819:PsiDirectoryNode" />
+              <item name="10-11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
+              <item name="武思同" type="462c0819:PsiDirectoryNode" />
+              <item name="10-11" type="462c0819:PsiDirectoryNode" />
+              <item name="express1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
+              <item name="武思同" type="462c0819:PsiDirectoryNode" />
+              <item name="10-11" type="462c0819:PsiDirectoryNode" />
+              <item name="express2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
+              <item name="武思同" type="462c0819:PsiDirectoryNode" />
+              <item name="10-11" type="462c0819:PsiDirectoryNode" />
+              <item name="express2" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wuiw1610-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wuiw1610-1" type="462c0819:PsiDirectoryNode" />
+              <item name="武思同" type="462c0819:PsiDirectoryNode" />
+              <item name="10-11" type="462c0819:PsiDirectoryNode" />
+              <item name="express3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,12 +191,15 @@
     <property name="javascript.nodejs.core.library.configured.version" value="8.5.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-10\ajax" />
-      <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-9\http3" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-11" />
       <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-9\http2" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-10\express3" />
+      <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-10\express2" />
+      <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-10\ajax" />
+      <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-9\http3" />
       <recent name="C:\Users\Administrator\Desktop\wuiw1610-1\武思同\10-9\http2" />
     </key>
   </component>
@@ -182,26 +215,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.http.js (4)">
-    <configuration name="http.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/ajax.post" />
-    <configuration name="http.js (3)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/form-get" />
-    <configuration name="http.js (4)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/file" />
-    <configuration name="http.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$/武思同/10-10/ajax" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wuiw1610-1/武思同/10-10/ajax/index.html" />
+  <component name="RunManager" selected="Node.js.app3.js">
+    <configuration name="app2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app2.js" working-dir="$PROJECT_DIR$/武思同/10-11/express3" />
+    <configuration name="app3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app3.js" working-dir="$PROJECT_DIR$/武思同/10-11/express3" />
+    <configuration name="app.js (2)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/武思同/10-10/express3" />
+    <configuration name="app.js (3)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/武思同/10-11/express1" />
+    <configuration name="app.js (4)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/武思同/10-11/express2" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.http.js (3)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.http.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.http.js (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.http.js (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.app.js (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.app2.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.app3.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.http.js (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.http.js (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.http.js" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.http.js (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app3.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.app2.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.app.js (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.app.js (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -217,12 +250,13 @@
       <updated>1506736846100</updated>
       <workItem from="1506736849657" duration="2640000" />
       <workItem from="1507519996460" duration="16375000" />
-      <workItem from="1507598421489" duration="15910000" />
+      <workItem from="1507598421489" duration="18535000" />
+      <workItem from="1507686748222" duration="11139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34925000" />
+    <option name="totallyTimeSpent" value="48689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -232,7 +266,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29793978" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29793978" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -257,11 +291,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/武思同/10-9/http3/http3.js">
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express3/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-9/http3/http3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -332,7 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -347,7 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,7 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -363,7 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -371,7 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -379,7 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -387,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -395,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -403,7 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -411,7 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -419,22 +450,142 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/武思同/10-10/file/index.html">
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express2/node_modules/ms/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/武思同/10-10/file/http.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/file/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express3/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express3/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express3/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express3/login.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express3/app2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express2/routes/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express2/routes/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express2/routes/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express3/app3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-10/express3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/武思同/10-11/express1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding />
         </state>
       </provider>
